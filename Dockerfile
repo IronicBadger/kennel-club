@@ -8,8 +8,8 @@ WORKDIR /src
 # install the dependencies from the package.json file
 RUN npm install
 
-# make port 80 available outside of the image
-EXPOSE 80
+# make port 8080 available outside of the image
+EXPOSE 8080
 
 # start node with the index.js file of our hello-world application
 CMD ["node", "index.js"]
