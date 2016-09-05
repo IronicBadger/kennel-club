@@ -1,0 +1,13 @@
+{
+  "id": "build100",
+  "kind": "BuildConfig",
+  "apiVersion": "v1beta1",
+  "desiredInput":
+  {
+    "type":      "docker",
+    "sourceURI": "git://github.com/IronicBadger/kennel-club.git",
+    "imageTag": "kennel-club/node-app",
+    "registry": "127.0.0.1:5000"
+  },
+  "secret": "secret101"
+}
