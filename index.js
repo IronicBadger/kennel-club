@@ -8,5 +8,5 @@ app.get('/', function (req, res) {
   res.send('<html><body>Hello Kennel Club! Request served by container ' + hostname + '</body></html>');
 });
 
-app.listen(80);
+app.listen(8080);
 console.log('Running on http://localhost');
